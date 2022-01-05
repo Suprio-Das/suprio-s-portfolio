@@ -10,15 +10,21 @@ body{
 }
 .flexible-container{
     display: flex;
+    margin-bottom: 30px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-
+}
+.dream-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 750px;
 }
 .half-widht{
     width: 50%;
-    padding-left: 20px;
+    padding-left: 40px;
 }
 .half-widht h1{
     font-size: 50px;
@@ -37,4 +43,7 @@ body{
     padding: 10px 30px;
     font-weight: 600;
     border-radius: 3px;
+}
+.section02{
+    margin-left: 90px;
 }
